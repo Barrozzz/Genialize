@@ -1,0 +1,358 @@
+ /*header*/ 
+
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(45deg, #9B00FF, #7700C4, #9434C8,#5E009B );
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    height: 100px;
+    font-size: 23px;
+   
+  }
+  
+  
+  
+  header a{
+  
+    text-decoration: none;
+    color: white;
+
+  }
+   
+  header input{
+  
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(49, 49, 49);
+  padding-left: 48px;
+  width: 400px;
+  border-radius: 100px;
+  color: white;
+  color: #9434C8;
+  border-width: 0px;
+  
+  }
+
+  header #pesquisa{
+  padding-right: 30px;
+  
+  
+  }
+
+  header input::placeholder {
+  color: #9434C8
+  
+  }
+
+  
+  header #cathover{
+    top: 100px;
+    position: fixed;
+    background-color: white;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+  }
+  
+  header #cathoveritens{
+    height: 40px;
+  }
+  header .categorias:hover #cathover {
+    display: block;
+   
+    
+
+  }
+  header .categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content:left;
+    
+}
+header #cathover ul li a:hover {
+  font-size: 17px;
+  font-weight: bold;
+  transition: 200ms;
+  color:#9434C8;
+}
+
+header .categorias ul li {
+    text-align: left;
+    margin-bottom: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+ 
+}
+header .categorias{
+   
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+header .itensHeader2{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+
+}
+header .itensHeader3{
+  align-items: center;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+
+}
+
+header .itensHeader{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  
+
+}
+
+header .categorias ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+    width: 500px;
+    padding-right: 180px;
+    margin-left: 20px;
+    
+}
+
+  header #pesquisa{
+  background: url(img/lupa.png) rgb(255, 255, 255) no-repeat;
+  background-position: 10px 8px;
+  background-size: 30px;
+  flex-grow: 1;
+  border-radius: 100px;
+  margin-left: 10px;
+  margin-right:10px;
+  outline: none;
+  
+  }
+ 
+  header #logo{
+    display: flex;
+    font-size: 25px;
+    padding-left: 15px;
+    margin: 0px;
+    font-family: 'Passion One', cursive;
+  }
+  header #imglogo{
+    padding: 0px;
+    margin-top: 0px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+header a{
+  margin-left: 35px;
+  margin-right:35px;
+}
+
+.header:hover {
+  font-size: 19px;
+  font-weight: bold;
+  transition: 200ms;
+
+}
+
+
+header #imglogo:hover {
+  width: 230px;
+  transition: 200ms;
+  
+}
+
+header .imgdir:hover{
+  width: 60px;
+  transition: 200ms;
+}
+
+header .header{
+  font-size: 17px;
+}
+header #perfil{
+  width:60px;
+    height:60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* content*/
+#mae{
+    width: 1300px;
+    margin: 0 auto;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 30px 0;
+}
+
+.imgbanner{
+    width: 1300px;
+    height: 350px;
+    object-fit: cover;
+}
+#titulo{
+    font-family: 'Open Sans', sans-serif;
+    color:#7700C4;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+.cursos{
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+ 
+
+  
+
+}
+.curso{
+    background-color: white;
+    height: 320px;
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+    
+}
+#imgprod{
+    border-radius: 20px 20px 0 0;
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+#nome{
+  height: 45px;
+    margin: 0px 10px;
+    text-overflow: ellipsis;
+    
+}
+#nomeProd{
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    
+    
+}
+.preco{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0 15px 15px;
+    color:#05770b;
+
+}
+.comprar{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(45deg, #9B00FF, #7700C4, #9434C8,#5E009B );
+  width: 200px;
+  height: 35px;
+  padding-top: 5px;
+  border-radius: 100px;
+}
+
+#comprado{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #454446;
+  width: 200px;
+  height: 35px;
+  padding-top: 5px;
+  border-radius: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+.curso:hover #imgprod, .comprar:hover .curso.curso:hover #comprado{
+  filter: brightness(70%)
+
+}
+
+/* footer*/
+footer {
+  background-image: linear-gradient(45deg, #9B00FF, #7700C4, #9434C8,#5E009B );
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 500px;
+  font-family: 'Open Sans', sans-serif;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.footerConteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+
+.fotterSecao {
+  
+  margin: 0 10%;
+  margin-bottom: 20px;
+  
+  
+}
+
+.fotterSecao a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.fotterSecao a:hover {
+  text-decoration: underline;
+  transition: 200ms;
+  
+}
+
+#footerLogo{
+  text-align: center;
+}

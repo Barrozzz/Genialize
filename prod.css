@@ -1,0 +1,423 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+ /*header*/ 
+
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    height: 100px;
+    font-size: 23px;
+   
+  }
+  
+  
+  
+  header a{
+  
+    text-decoration: none;
+    color: white;
+
+  }
+   
+  header input{
+  
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(49, 49, 49);
+  padding-left: 48px;
+  width: 400px;
+  border-radius: 100px;
+  color: #9434C8;
+  border-width: 0px;
+  
+  }
+
+  header #pesquisa{
+  padding-right: 30px;
+  
+  
+  }
+
+  header input::placeholder {
+  color: #9434C8
+  
+  }
+
+  
+  header #cathover{
+    top: 100px;
+    position: fixed;
+    background-color: white;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+  }
+  header #cathoveritens{
+    height: 40px;
+  }
+
+  .categorias:hover #cathover {
+    display: block;
+   
+    
+
+  }
+  .categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content:left;
+    
+}
+#cathover ul li a:hover {
+  font-size: 17px;
+  font-weight: bold;
+  transition: 200ms;
+  color:#9434C8;
+}
+
+.categorias ul li {
+    text-align: left;
+    margin-bottom: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+ 
+}
+.categorias{
+   
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.itensHeader2{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+
+}
+.itensHeader3{
+  align-items: center;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+
+}
+
+.itensHeader{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  
+
+}
+
+.categorias ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+    width: 500px;
+    padding-right: 180px;
+    margin-left: 20px;
+    
+}
+
+  header #pesquisa{
+  background: url(img/lupa.png) rgb(255, 255, 255) no-repeat;
+  background-position: 10px 8px;
+  background-size: 30px;
+  flex-grow: 1;
+  border-radius: 100px;
+  margin-left: 10px;
+  margin-right:10px;
+  outline: none;
+  
+  }
+ 
+  header #logo{
+    display: flex;
+    font-size: 25px;
+    padding-left: 15px;
+    margin: 0px;
+    font-family: 'Passion One', cursive;
+  }
+  header #imglogo{
+    padding: 0px;
+    margin-top: 0px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+header a{
+  margin-left: 35px;
+  margin-right:35px;
+}
+
+.header:hover {
+  font-size: 19px;
+  font-weight: bold;
+  transition: 200ms;
+
+}
+
+#imglogo:hover {
+  width: 230px;
+  transition: 200ms;
+  
+}
+
+header .imgdir:hover{
+  width: 60px;
+  transition: 200ms;
+}
+
+header .header{
+  font-size: 17px;
+}
+header #perfil{
+  width:60px;
+    height:60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+/*body*/
+
+#fundo{
+
+  background-image: linear-gradient(45deg, #9B00FF, #7700C4, #9434C8,#5E009B );
+}
+
+#gradiente{
+    
+    margin: 0px;
+    height: 360px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content:center;
+    
+}
+#boxtitulo h1{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 20px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    
+}
+#caminho{
+    color: #CFCFCF;
+}
+#desc{
+    font-size: 25px;
+    color: white;
+    
+}
+#boxdesc{
+   
+    width: 700px;
+
+}
+#boxtitulo{
+    width: 700px;
+    
+  
+}
+#educ{
+  display: flex;
+}
+#imgeduc{
+  width:40px;
+    height:40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#cursoinfo{
+   margin-left: 80px;
+}
+#pag{
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    border-radius: 60px;
+    border:#7700C4 5px solid;
+    
+
+   
+}
+#imgcurso{
+    border-radius: 50px;
+    width: 380px;
+    height: 270px;
+    margin: 10px;
+    object-fit:cover;
+}
+.preco{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#comprar{
+    display: flex;
+    background-color: #F48B00;
+    width: 370px;
+    height: 60px;
+    border-radius: 199px;
+    color:white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#comprar a{
+  color: white;
+  text-decoration: none;
+}
+#comprar:hover{
+  background-color: #ce7500;
+
+}
+h3{
+    color: white;
+}
+#carrinho{
+    width:40px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+#compagr{
+    margin-left: 90px;
+
+}
+#devolucao{
+    color:#7700C4;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+#info{
+  color:#9434C8;
+  text-align: left;
+  width: 700px;
+  font-size: 20px;
+ 
+  
+
+
+
+}
+.rating {
+  direction: rtl; 
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label::before {
+  content: "\2605"; /* Código Unicode para uma estrela */
+  
+}
+
+.rating input:checked ~ label::before {
+  content: "\2605"; 
+  color: #F48B00; 
+}
+#cont{
+display: flex;
+justify-content:center;
+margin-right: 425px;
+ 
+}
+#sobre{
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold
+}
+a{
+  text-decoration: none;
+}
+.curso:hover #imgprod{
+  filter: brightness(70%)
+
+}
+/* footer*/
+footer {
+  background-image: linear-gradient(45deg, #9B00FF, #7700C4, #9434C8,#5E009B );
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 500px;
+  font-family: 'Open Sans', sans-serif;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.footerConteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+
+.fotterSecao {
+  
+  margin: 0 10%;
+  margin-bottom: 20px;
+  
+  
+}
+
+.fotterSecao a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.fotterSecao a:hover {
+  text-decoration: underline;
+  transition: 200ms;
+  
+}
+
+#footerLogo{
+  text-align: center;
+}
